@@ -1,0 +1,12 @@
+{
+  "name": "test-chrome-extension-capturetab",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description":
+    "Test capture visible tab",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "minimum_chrome_version": "63",
+  "permissions": ["activeTab"]
+}
